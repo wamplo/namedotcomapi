@@ -1,0 +1,24 @@
+{
+	"name": "wamplo/namedotcomapi",
+	"description": "Name.com API PHP",
+	"version": "0.0.1",
+	"keywords": ["registrar", "api","php"],
+	"homepage": "https://github.com/wamplo/namedotcomapi",
+	"license": "MIT",  
+	"authors": [
+		{
+			"name": "Adam Ramadhan",
+			"email": "rama@wamplo.com",
+			"homepage": "http://adamramadhan.com"
+		}
+	],
+	"require": {
+        "php": ">=5.3.0",
+        "rmccue/requests": ">=1.0"
+    },
+	"minimum-stability" : "dev",
+	"type": "library",
+	"autoload": {
+		"psr-0": {"NameDotComApi": "NameDotComApi/"}
+	}
+}
